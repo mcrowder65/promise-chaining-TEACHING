@@ -1,0 +1,12 @@
+{
+  "name": "promise-chaining-TEACHING",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
