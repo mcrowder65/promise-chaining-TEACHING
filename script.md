@@ -2,10 +2,10 @@ Alright friends, welcome back!
 
 In the last exercise, we were first introduced to the concept of promise chaining.
 
-In this little example we have here, you get see we get dogBreeds, then we map over the list of those dogBreeds to just an array
+In this little example we have here, you see we get dogBreeds, then we map over the list of those dogBreeds to just an array
 of strings, and then we just console.log that list immediately.
 
-So, everytime you use `.then` to resolve a promise, you actually are essentially returning another promise.
+So, everytime you use `.then` to resolve a promise, you actually are returning another promise.
 Whether or not that promise has a value inside of it is another thing.
 
 So what do you think would happen if I did added another `.then` after the last `.then(console.log)`
@@ -16,7 +16,7 @@ It just outputs undefined.
 
 Why?
 
-Well, let's declare these functions here. instead of just doing console.log
+Well, let's declare these functions inline here. instead of just doing console.log with no invocations
 
 ```js
 utilities
